@@ -3,6 +3,7 @@ Title : Object Detection and Image Classification using CNN on CIFAR 10.
 
 The below procedure explains how to run the given code :
 #########################################################################
+
 Pre requisites:
 1. System with Anaconda software installed
 Link: https://www.continuum.io/downloads
@@ -13,6 +14,7 @@ jupyter notebook
 2. System with Matlab 2017a version installed.
 
 #########################################################################
+
 Code Structure:
 
 	AlexNet/
