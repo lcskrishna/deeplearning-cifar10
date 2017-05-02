@@ -1,0 +1,133 @@
+Size of the Training Features in Fold 1:
+10000
+Size of the Testing Features in Fold 2:
+10000
+Size of the Training Features of Fold 2 : 
+10000
+Size of the Training Labels of Fold 2: 
+10000
+Size of the Training Features of Fold 3 : 
+10000
+Size of the Training Labels of Fold 3: 
+10000
+Size of the Training Features of Fold 4 : 
+10000
+Size of the Training Labels of Fold 4: 
+10000
+Size of the Training Features of Fold 5 : 
+10000
+Size of the Training Labels of Fold 5: 
+10000
+Done with the formation of the Training Features.
+The dimensions of the Training Features:
+(40000, 3072)
+The dimensions of the Training Labels:
+(40000,)
+Done with the formation of the Testing dataset.
+Size of the Testing Features: 
+10000
+Size of the Testing Labels: 
+10000
+Iteration 1, loss = 3.06404827
+Validation score: 0.091250
+Iteration 2, loss = 2.46269791
+Validation score: 0.091000
+Iteration 3, loss = 2.46225769
+Validation score: 0.091000
+Iteration 4, loss = 2.46191537
+Validation score: 0.091250
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Setting learning rate to 0.000200
+Iteration 5, loss = 2.46169355
+Validation score: 0.091250
+Iteration 6, loss = 2.46161588
+Validation score: 0.091000
+Iteration 7, loss = 2.46155342
+Validation score: 0.090750
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Setting learning rate to 0.000040
+Iteration 8, loss = 2.46147987
+Validation score: 0.090750
+Iteration 9, loss = 2.46146827
+Validation score: 0.090750
+Iteration 10, loss = 2.46145772
+Validation score: 0.090750
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Setting learning rate to 0.000008
+Iteration 11, loss = 2.46144829
+Validation score: 0.090750
+Iteration 12, loss = 2.46144630
+Validation score: 0.090750
+Iteration 13, loss = 2.46144437
+Validation score: 0.090750
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Setting learning rate to 0.000002
+Iteration 14, loss = 2.46144267
+Validation score: 0.090750
+Iteration 15, loss = 2.46144229
+Validation score: 0.090750
+Iteration 16, loss = 2.46144193
+Validation score: 0.090750
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Setting learning rate to 0.000000
+Iteration 17, loss = 2.46144157
+Validation score: 0.090750
+Iteration 18, loss = 2.46144150
+Validation score: 0.090750
+Iteration 19, loss = 2.46144142
+Validation score: 0.090750
+Validation score did not improve more than tol=0.000100 for two consecutive epochs. Learning rate too small. Stopping.
+Neural Network Training is done with Iterations 10000 and Hidden Layers 500
+Accuracy on the Validation Dataset is: 
+10.16
+ The Classification report is : 
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00      1014
+          1       0.10      1.00      0.18      1014
+          2       0.67      0.00      0.00       952
+          3       0.00      0.00      0.00      1016
+          4       0.00      0.00      0.00       997
+          5       0.00      0.00      0.00      1025
+          6       1.00      0.00      0.00       980
+          7       0.00      0.00      0.00       977
+          8       0.00      0.00      0.00      1003
+          9       0.00      0.00      0.00      1022
+
+avg / total       0.17      0.10      0.02     10000
+
+The confusion Matrix obtained is : 
+[[   0 1013    0    0    0    0    0    0    0    1]
+ [   0 1013    0    0    0    0    0    0    0    1]
+ [   0  950    2    0    0    0    0    0    0    0]
+ [   0 1014    1    0    1    0    0    0    0    0]
+ [   0  997    0    0    0    0    0    0    0    0]
+ [   0 1025    0    0    0    0    0    0    0    0]
+ [   0  979    0    0    0    0    1    0    0    0]
+ [   0  977    0    0    0    0    0    0    0    0]
+ [   0 1003    0    0    0    0    0    0    0    0]
+ [   0 1022    0    0    0    0    0    0    0    0]]
+Accuracy on the Testing Dataset is: 
+9.99
+The Classification Report is: 
+             precision    recall  f1-score   support
+
+          0       0.00      0.00      0.00      1000
+          1       0.10      1.00      0.18      1000
+          2       0.00      0.00      0.00      1000
+          3       0.00      0.00      0.00      1000
+          4       0.00      0.00      0.00      1000
+          5       0.00      0.00      0.00      1000
+          6       0.00      0.00      0.00      1000
+          7       0.00      0.00      0.00      1000
+          8       0.00      0.00      0.00      1000
+          9       0.00      0.00      0.00      1000
+
+avg / total       0.01      0.10      0.02     10000
+
+The Confusion Matrix to verify its performance is:
+[[   0 1000    0    0    0    0    0    0    0    0]
+ [   0  999    0    0    0    0    1    0    0    0]
+ [   0 1000    0    0    0    0    0    0    0    0]
+ [   0  999    0    0    0    0    0    0    0    1]
+ [   1  997    0    0    0    0    1    0    0    1]
+ [   0 1000    0    0    0    0    0    0    0    0]
+ [   0 1000    0    0    0    0    0    0    0    0]
+ [   0  999    1    0    0    0    0    0    0    0]
+ [   0 1000    0    0    0    0    0    0    0    0]
+ [   0 1000    0    0    0    0    0    0    0    0]]
